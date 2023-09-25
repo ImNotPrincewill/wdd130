@@ -1,0 +1,58 @@
+@import url('https://fonts.google.com/specimen/Mooli');
+:root {
+    --primary-color: #042A2B;
+    --secondary-color: #5EB1BF;
+    --accent1-color: #EF7B45;
+    --accent2-color: #FFF689;
+
+    --heading-font: 'mooli', serif;
+    --paragraph-font: 'mooli', serif;
+
+    --nav-background-color: #DAA89B;
+    --nav-link-color: #2C0E37;
+    --nav-hover-link-color: #690375;
+    --nav-hover-background-color: #CB429F;
+}
+
+body {
+    font: var(--paragraph-font);
+    max-width: 960x;
+    padding: 20px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--#042A2B);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--#EF7B45)
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+
