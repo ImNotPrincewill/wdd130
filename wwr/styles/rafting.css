@@ -1,0 +1,29 @@
+@import url('https://fonts.google.com/specimen/Mooli');
+:root {
+    --primary-color: #042A2B;
+    --secondary-color: #5EB1BF;
+    --accent1-color: #EF7B45;
+    --accent2-color: #FFF689;
+
+    --heading-font: 'mooli', serif;
+    --paragraph-font: 'mooli', serif;
+
+    --nav-background-color: #DAA89B;
+    --nav-link-color: #2C0E37;
+    --nav-hover-link-color: #690375;
+    --nav-hover-background-color: #CB429F;
+}
+div .hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+h1 {
+    position: absolute;
+}
+article {
+    position: absolute;
+}
+article img {
+    position: relative;
+}
