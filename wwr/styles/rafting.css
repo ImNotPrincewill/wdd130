@@ -17,6 +17,7 @@ div .hero img {
     display: block;
     width: 100%;
     height: auto;
+    position: absolute;
 }
 h1 {
     position: absolute;
@@ -26,4 +27,46 @@ article {
 }
 article img {
     position: relative;
+}
+
+header {
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 120px 2fr;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    max-width: 1000px;
+}
+
+.logom{
+    margin: 0 0.25rem 0 1rem;
+    width: 64px;
+    height: auto;
+}
+
+h1 {
+    font-size: 2rem;
+    font-family: Acme, Arial, Helvetica, sans-serif;
+}
+
+nav {
+    text-align: right;
+}
+
+.navigation {
+    display: flex;
+    list-style-type: none;
+}
+
+.navigation a {
+    display: block;
+    color: navy;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    color: tomato;
+    font-weight: 700;
+    text-decoration: underline;
 }
